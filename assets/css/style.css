@@ -1,0 +1,125 @@
+/* home page */
+.skills {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.skills h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-bar .progress {
+    height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #e9ecef;
+    margin-bottom: 20px;
+}
+.skill-bar .progress-bar {
+    background-color: #ffc107;
+    transition: width 1s;
+}
+.experience {
+    padding: 50px 0;
+}
+.experience .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.experience .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.testimonials {
+    background-color: #e9ecef;
+    padding: 50px 0;
+}
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.testimonial-card img {
+    /* border-radius: 50%;
+    height: 80px; */
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+ 
+.hero{
+    position: relative;
+    /* top: 100px; */
+    padding-top: 50px;
+}
+.fa-brands:hover{
+    scale: 1.1;
+}
+.img-circle{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+}
+.img-circle img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius:50% ;
+}
+/* home page ends */
+
+
+/* about page */
+.about-section {
+    padding: 50px 0;
+}
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.about-bio {
+    margin-bottom: 30px;
+}
+.about-bio .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.about-bio .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.achievements {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.achievements .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.achievements .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* about page ends */
+
+
+
+
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
